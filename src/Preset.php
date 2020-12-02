@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Artisan;
 
 	use Illuminate\Support\Facades\File;
 
-    use Laravel\Ui\Presets\Preset as MarseniouPreset;
+    use Laravel\Ui\Presets\Preset as BulmaPreset;
 
     class Preset extends MarseniouPreset
     {
