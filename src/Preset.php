@@ -47,5 +47,7 @@ use Illuminate\Support\Facades\Artisan;
         public static function updateViews(){
             copy(__DIR__.'/stubs/app.blade.php', resource_path('views/layouts/app.blade.php'));
             copy(__DIR__.'/stubs/lmenu.vue', resource_path('js/components/lmenu.vue'));
+            copy(__DIR__.'/stubs/login.blade.php', resource_path('views/auth/login.blade.php'));
+            copy(__DIR__.'/stubs/register.blade.php', resource_path('views/auth/register.blade.php'));
         }
     }
