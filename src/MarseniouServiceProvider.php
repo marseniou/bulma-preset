@@ -4,7 +4,7 @@ namespace Marseniou\BulmaPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Ui\UiCommand;
-use Marseniou\Preset;
+use Marseniou\BulmaPreset\Preset;
 class MarseniouServiceProvider extends ServiceProvider
 {
     
