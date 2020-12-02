@@ -1,0 +1,28 @@
+{
+    "name": "marseniou/bulma-preset",
+    "description": "Laravel 8 presets with Bulma and Vue",
+    "keywords": ["laravel","vue", "bulma"],
+    "require": {
+        "laravel/ui": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marios Arseniou",
+            "email": "marseniou@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+        "psr-4":{
+            "Marseniou\\BulmaPreset\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Marseniou\\BulmaPreset\\MarseniouServiceProvider"
+            ]
+        }
+    }
+}
